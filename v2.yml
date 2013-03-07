@@ -372,3 +372,18 @@
   name: StackNotFound
   http_code: 404
   message: "The stack could not be found: %s"
+
+260001:
+  name: SupportedBuildpackInvalid
+  http_code: 400
+  message: "The supported buildpack is invalid: %s"
+
+260002:
+  name: SupportedBuildpackNameTaken
+  http_code: 400
+  message: "The supported buildpack name is taken: %s"
+
+260003:
+  name: SupportedBuildpackNotFound
+  http_code: 404
+  message: "The supported buildpack could not be found: %s"
