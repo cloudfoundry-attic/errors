@@ -423,3 +423,12 @@
   http_code: 400
   message: "This combination of ServicePlan and Organization is already taken: %s"
 
+270001:
+  name: BuildpackInvalid
+  http_code: 400
+  message: "The buildpack is invalid"
+
+270002:
+  name: BuildpackNameTaken
+  http_code: 400
+  message: "The buildpack name is taken: %s"
