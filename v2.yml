@@ -437,3 +437,8 @@
   name: ServiceBrokerUrlTaken
   http_code: 400
   message: "The service broker url is taken: %s"
+
+250001:
+  name: SessionNotFound
+  http_code: 404
+  message: "The session could not be found: %s"
