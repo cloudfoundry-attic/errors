@@ -358,6 +358,11 @@
   http_code: 400
   message: "The domain name is taken: %s"
 
+130004:
+  name: PathInvalid
+  http_code: 400
+  message: "The path is invalid: %s"
+
 140001:
   name: LegacyApiWithoutDefaultSpace
   http_code: 400
