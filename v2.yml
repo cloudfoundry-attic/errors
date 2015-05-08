@@ -513,6 +513,11 @@
   http_code: 400
   message: "The host is taken: %s"
 
+210004:
+  name: RoutePathTaken
+  http_code: 400
+  message: "The path is taken: %s"
+
 220001:
   name: InstancesError
   http_code: 400
