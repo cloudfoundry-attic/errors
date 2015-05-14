@@ -494,8 +494,13 @@
   message: "File error: %s"
 
 200001:
-  name: StatsError
+  name: AppStoppedStatsError
   http_code: 400
+  message: "App Stopped Stats Error: Could not fetch stats for stopped app %s"
+
+200002:
+  name: StatsError
+  http_code: 500
   message: "Stats error: %s"
 
 210001:
@@ -512,11 +517,6 @@
   name: RouteHostTaken
   http_code: 400
   message: "The host is taken: %s"
-
-210004:
-  name: RoutePathTaken
-  http_code: 400
-  message: "The path is taken: %s"
 
 220001:
   name: InstancesError
