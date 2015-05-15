@@ -816,4 +816,5 @@
 360004:
   name: ServiceKeyNotSupported
   http_code: 400
-  message: "This service doesn't support creation of keys."
+  message: "%s"
+
