@@ -498,6 +498,11 @@
   http_code: 400
   message: "Stats error: %s"
 
+200002:
+  name: StatsUnavailable
+  http_code: 503
+  message: "Stats unavailable: %s"
+
 210001:
   name: RouteInvalid
   http_code: 400
