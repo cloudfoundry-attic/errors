@@ -508,6 +508,11 @@
   http_code: 503
   message: "Stats unavailable: %s"
 
+200003:
+  name: AppStoppedStatsError
+  http_code: 400
+  message: "Could not fetch stats for stopped app: %s"
+
 210001:
   name: RouteInvalid
   http_code: 400
