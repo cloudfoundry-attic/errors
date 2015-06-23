@@ -378,6 +378,11 @@
   http_code: 400
   message: "The path is invalid: %s"
 
+130005:
+  name: TotalPrivateDomainsExceeded
+  http_code: 400
+  message: "The number of private domains exceeds the quota for organization: %s"
+
 140001:
   name: LegacyApiWithoutDefaultSpace
   http_code: 400
