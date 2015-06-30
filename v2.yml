@@ -68,6 +68,11 @@
   http_code: 404
   message: "%s"
 
+10011:
+  name: DatabaseError
+  http_code: 500
+  message: "Database error"
+
 20001:
   name: UserInvalid
   http_code: 400
