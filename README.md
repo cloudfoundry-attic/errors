@@ -1,3 +1,3 @@
-# errors
+# Deprecated
 
-Shared error codes and messages for Cloud Foundry
+These errors are now managed inside the [cloud_controller_ng](https://github.com/cloudfoundry/cloud_controller_ng) repository (`vendor/errors`).
