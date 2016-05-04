@@ -46,7 +46,7 @@
 10006:
   name: AssociationNotEmpty
   http_code: 400
-  message: "Please delete the %s associations for your %s."
+  message: "%s is not empty. To delete, please remove the following associations: %s."
 
 10007:
   name: InsufficientScope
